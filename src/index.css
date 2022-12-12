@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: url("../src/img/space.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

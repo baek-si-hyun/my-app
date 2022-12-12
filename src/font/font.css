@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Yasashii";
+  src: url("./YasashiiBold.otf"), url("./YasashiiBold.ttf");
+}
+@font-face {
+  font-family: "Exo2";
+  src: url("./Exo2-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("./Giveny.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
