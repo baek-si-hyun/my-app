@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.c48b1370.css",
-    "main.js": "/my-app/static/js/main.6e7a59f4.js",
+    "main.css": "/my-app/static/css/main.38c110af.css",
+    "main.js": "/my-app/static/js/main.89de20b8.js",
     "static/media/20221205182338_Trim.gif": "/my-app/static/media/20221205182338_Trim.9474843f82b22322d771.gif",
     "static/media/20221206223545_Trim.gif": "/my-app/static/media/20221206223545_Trim.6cd3da49fb8b3873a3dc.gif",
     "static/media/airbnb.jpg": "/my-app/static/media/airbnb.85a6b2a049b8f6fafaea.jpg",
@@ -14,18 +14,17 @@
     "static/media/map1.jpg": "/my-app/static/media/map1.e6163758c1d448b9b719.jpg",
     "static/media/spring.png": "/my-app/static/media/spring.1493cea40dd5502e5ac7.png",
     "static/media/YasashiiBold.otf": "/my-app/static/media/YasashiiBold.adc79dd39f2624598fe7.otf",
-    "static/media/map2.jpg": "/my-app/static/media/map2.2bfbea842260b9d50e37.jpg",
     "static/media/VSCode.png": "/my-app/static/media/VSCode.a2ea685afa8a93556564.png",
     "static/media/IntelliJ.png": "/my-app/static/media/IntelliJ.0400d18b38c944351795.png",
     "static/media/YasashiiBold.ttf": "/my-app/static/media/YasashiiBold.4499c1e08893e9219f98.ttf",
     "static/media/postman.png": "/my-app/static/media/postman.30c639adbf4895d9484a.png",
     "static/media/Giveny.otf": "/my-app/static/media/Giveny.1d6c8467d3f46210cd46.otf",
     "index.html": "/my-app/index.html",
-    "main.c48b1370.css.map": "/my-app/static/css/main.c48b1370.css.map",
-    "main.6e7a59f4.js.map": "/my-app/static/js/main.6e7a59f4.js.map"
+    "main.38c110af.css.map": "/my-app/static/css/main.38c110af.css.map",
+    "main.89de20b8.js.map": "/my-app/static/js/main.89de20b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c48b1370.css",
-    "static/js/main.6e7a59f4.js"
+    "static/css/main.38c110af.css",
+    "static/js/main.89de20b8.js"
   ]
 }
