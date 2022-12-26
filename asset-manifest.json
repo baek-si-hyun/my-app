@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.af2d2054.css",
-    "main.js": "/my-app/static/js/main.f14da6f2.js",
+    "main.css": "/my-app/static/css/main.090bfcd0.css",
+    "main.js": "/my-app/static/js/main.099ce6e4.js",
     "static/media/20221205182338_Trim.gif": "/my-app/static/media/20221205182338_Trim.9474843f82b22322d771.gif",
     "static/media/20221206223545_Trim.gif": "/my-app/static/media/20221206223545_Trim.6cd3da49fb8b3873a3dc.gif",
     "static/media/airbnb.jpg": "/my-app/static/media/airbnb.85a6b2a049b8f6fafaea.jpg",
@@ -19,11 +19,11 @@
     "static/media/YasashiiBold.ttf": "/my-app/static/media/YasashiiBold.4499c1e08893e9219f98.ttf",
     "static/media/Giveny.otf": "/my-app/static/media/Giveny.1d6c8467d3f46210cd46.otf",
     "index.html": "/my-app/index.html",
-    "main.af2d2054.css.map": "/my-app/static/css/main.af2d2054.css.map",
-    "main.f14da6f2.js.map": "/my-app/static/js/main.f14da6f2.js.map"
+    "main.090bfcd0.css.map": "/my-app/static/css/main.090bfcd0.css.map",
+    "main.099ce6e4.js.map": "/my-app/static/js/main.099ce6e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.af2d2054.css",
-    "static/js/main.f14da6f2.js"
+    "static/css/main.090bfcd0.css",
+    "static/js/main.099ce6e4.js"
   ]
 }
