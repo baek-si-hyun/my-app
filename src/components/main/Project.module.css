@@ -1,0 +1,976 @@
+.div_hide {
+  display: none;
+}
+.project_container {
+  color: white;
+  height: 100vh;
+  background-color: #3e9d89;
+  font-family: NanumSquareRound;
+  padding: 5rem 1.5rem;
+}
+.project_inner_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ========
+project text
+========= */
+.project_text {
+  width: 35vw;
+}
+.project_text h2 {
+  font-size: 5rem;
+}
+.project_text h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.project_text p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+/* ========
+project showroom
+========= */
+.project_showroom {
+  display: flex;
+  width: 65vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hov_box {
+  height: 100%;
+  border-top: 2px solid #fff;
+  width: 30rem;
+  position: relative;
+  cursor: pointer;
+}
+.hov_box:nth-child(1),
+.hov_box:nth-child(2) {
+  margin-bottom: 5rem;
+}
+.gif {
+  position: absolute;
+  background-image: url("../../img/20221205182338_Trim.gif");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  opacity: 0;
+  box-shadow: 0px 0px 30px 10px black;
+}
+.gif_stop {
+  background-image: url("../../img/airbnb.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+}
+.hov_box_gif:hover .gif {
+  animation: hover_gif 100ms, hover_opacity_1 300ms 200ms;
+  animation-fill-mode: forwards;
+}
+.hov_box_gif:not(:hover) .gif {
+  animation: hover_gif_stop 100ms 500ms, hover_opacity_0 300ms;
+}
+@keyframes hover_gif {
+  0% {
+    height: 280px;
+    z-index: 0;
+  }
+  100% {
+    left: -170px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+}
+@keyframes hover_gif_stop {
+  0% {
+    left: -170px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+  100% {
+    height: 280px;
+    z-index: 0;
+  }
+}
+
+.gif2 {
+  position: absolute;
+  background-image: url("../../img/20221206223545_Trim.gif");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  opacity: 0;
+  box-shadow: 0px 0px 30px 10px black;
+}
+.gif_stop2 {
+  background-image: url("../../img/airbnb2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+}
+.hov_box_gif2:hover .gif2 {
+  animation: hover_gif2 100ms, hover_opacity_1 300ms 200ms;
+  animation-fill-mode: forwards;
+}
+.hov_box_gif2:not(:hover) .gif2 {
+  animation: hover_gif_stop2 100ms 500ms, hover_opacity_0 300ms;
+}
+@keyframes hover_gif2 {
+  0% {
+    height: 280px;
+    z-index: 0;
+  }
+  100% {
+    left: -240px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+}
+@keyframes hover_gif_stop2 {
+  0% {
+    left: -240px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+  100% {
+    height: 280px;
+    z-index: 0;
+  }
+}
+
+.erd {
+  position: absolute;
+  background-image: url("../../img/erd.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  opacity: 0;
+  box-shadow: 0px 0px 30px 10px black;
+}
+.erd_stop {
+  background-image: url("../../img/erd.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+}
+.hov_box_erd:hover .erd {
+  animation: hover_erd 100ms, hover_opacity_1 300ms 200ms;
+  animation-fill-mode: forwards;
+}
+.hov_box_erd:not(:hover) .erd {
+  animation: hover_erd_Stop 100ms 500ms, hover_opacity_0 300ms;
+}
+@keyframes hover_erd {
+  0% {
+    height: 280px;
+    z-index: 0;
+  }
+  100% {
+    left: -170px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+}
+@keyframes hover_erd_Stop {
+  0% {
+    left: -170px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+  100% {
+    height: 280px;
+    z-index: 0;
+  }
+}
+
+.map1 {
+  position: absolute;
+  background-image: url("../../img/map1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  opacity: 0;
+  box-shadow: 0px 0px 30px 10px black;
+}
+.map2 {
+  background-image: url("../../img/map1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+}
+.hov_box_map:hover .map1 {
+  animation: hover_map1 100ms, hover_opacity_1 300ms 200ms;
+  animation-fill-mode: forwards;
+}
+.hov_box_map:not(:hover) .map1 {
+  animation: hover_map1_stop 100ms 500ms, hover_opacity_0 300ms;
+}
+
+@keyframes hover_map1 {
+  0% {
+    height: 280px;
+    z-index: 0;
+  }
+  100% {
+    left: -240px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+}
+@keyframes hover_map1_stop {
+  0% {
+    left: -240px;
+    top: -50px;
+    width: 800px;
+    height: 450px;
+    z-index: 3;
+  }
+  100% {
+    height: 280px;
+    z-index: 0;
+  }
+}
+
+@keyframes hover_opacity_1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hover_opacity_0 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* ========
+skills
+========= */
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills_container h2 {
+  font-size: 5rem;
+}
+.skills_container h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.skills_container p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.skills_img {
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 60px;
+}
+.skills_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.skills_inner_div {
+  width: 100px;
+  margin: 2.5rem;
+}
+.img400 {
+  width: 50rem;
+}
+.img120 {
+  width: 100%;
+}
+.img100 {
+  width: 100%;
+}
+
+/* unit: vh, % */
+@media (max-width: 1700px) {
+  .project_container {
+    height: 100%;
+    padding: 4rem 1.5rem;
+  }
+  .project_text {
+    width: 30vw;
+  }
+  .project_text h2 {
+    font-size: 4rem;
+  }
+  .project_text h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .project_text p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .hov_box:nth-child(1),
+  .hov_box:nth-child(2) {
+    margin-bottom: 5rem;
+  }
+  .gif,
+  .gif_stop,
+  .erd,
+  .erd_stop,
+  .map1,
+  .map2,
+  .gif2,
+  .gif_stop2 {
+    width: 100%;
+    height: 270px;
+  }
+  @keyframes hover_map1 {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -190px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_map1_stop {
+    0% {
+      left: -190px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_erd {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -130px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_erd_Stop {
+    0% {
+      left: -130px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_gif {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -130px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop {
+    0% {
+      left: -130px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+
+  @keyframes hover_gif2 {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -190px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop2 {
+    0% {
+      left: -190px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+  .skills_container h2 {
+    font-size: 4rem;
+  }
+
+  .skills_img {
+    padding-top: 40px;
+  }
+  .skills_inner {
+    margin-top: 2rem;
+  }
+  .img400 {
+    width: 45rem;
+  }
+  .skills_inner_div {
+    width: 100px;
+    margin: 2rem;
+  }
+}
+@media (max-width: 1536px) {
+  .hov_box {
+    height: 100%;
+  }
+  .project_container {
+    height: 100%;
+    padding: 3rem 1.5rem;
+  }
+  .project_text {
+    width: 25vw;
+  }
+  .project_text h2 {
+    font-size: 3rem;
+  }
+  .project_text h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1476px) {
+  .project_container {
+    height: 100%;
+    padding: 6rem 1.5rem;
+  }
+  .project_inner_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .project_showroom {
+    width: 100%;
+  }
+  .project_text {
+    width: 100%;
+  }
+
+  .project_text h2 {
+    font-size: 4rem;
+  }
+  .project_text h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  @keyframes hover_map1 {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_map1_stop {
+    0% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_erd {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_erd_Stop {
+    0% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_gif {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop {
+    0% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+
+  @keyframes hover_gif2 {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop2 {
+    0% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+  .skills_container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1280px) {
+  @keyframes hover_map1 {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -160px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_map1_stop {
+    0% {
+      left: -160px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_erd {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -70px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_erd_Stop {
+    0% {
+      left: -70px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_gif {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -70px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop {
+    0% {
+      left: -70px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+
+  @keyframes hover_gif2 {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -160px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop2 {
+    0% {
+      left: -160px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+
+  .skills_container h2 {
+    font-size: 3rem;
+  }
+  .skills_container h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .skills_container p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .skills_img {
+    padding-top: 40px;
+  }
+  .skills_inner {
+    margin-top: 2rem;
+  }
+  .img400 {
+    width: 40rem;
+  }
+  .skills_inner_div {
+    width: 65px;
+    margin: 2rem;
+  }
+}
+@media (max-width: 1075px) {
+  .project_container {
+    height: 100%;
+    padding: 6rem 1.5rem;
+  }
+  .project_inner_container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project_showroom {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .project_text {
+    width: 100%;
+  }
+  .project_text h2 {
+    font-size: 4rem;
+  }
+  .project_text h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .img400 {
+    width: 50rem;
+  }
+  @keyframes hover_map1 {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_map1_stop {
+    0% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_erd {
+    0% {
+      height: 270px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_erd_Stop {
+    0% {
+      left: -110px;
+      top: -20px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 270px;
+      z-index: 0;
+    }
+  }
+  @keyframes hover_gif {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop {
+    0% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+
+  @keyframes hover_gif2 {
+    0% {
+      height: 280px;
+      z-index: 0;
+    }
+    100% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+  }
+  @keyframes hover_gif_stop2 {
+    0% {
+      left: -110px;
+      top: -30px;
+      width: 700px;
+      height: 390px;
+      z-index: 3;
+    }
+    100% {
+      height: 280px;
+      z-index: 0;
+    }
+  }
+}
+@media (max-width: 429px) {
+  .project_container {
+    padding: 4rem 1.5rem;
+  }
+  .project_showroom {
+    padding: 10px 10px;
+  }
+  .hov_box:nth-child(4) {
+    margin-top: 5rem;
+  }
+  .project_text h2 {
+    font-size: 2rem;
+  }
+  .project_text h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .project_text p {
+    font-size: 0.8rem;
+  }
+  .gif,
+  .gif_stop,
+  .erd,
+  .erd_stop,
+  .map1,
+  .map2,
+  .gif2,
+  .gif_stop2 {
+    width: 100%;
+    height: 200px;
+  }
+  .hov_box_map:hover .map1 {
+    animation: hover_opacity_1 300ms;
+    animation-fill-mode: forwards;
+  }
+  .hov_box_map:not(:hover) .map1 {
+    animation: hover_opacity_0 300ms;
+  }
+  .hov_box_erd:hover .erd {
+    animation: hover_opacity_1 300ms;
+    animation-fill-mode: forwards;
+  }
+  .hov_box_erd:not(:hover) .erd {
+    animation: hover_opacity_0 300ms;
+  }
+  .hov_box_gif2:hover .gif2 {
+    animation: hover_opacity_1 300ms;
+    animation-fill-mode: forwards;
+  }
+  .hov_box_gif2:not(:hover) .gif2 {
+    animation: hover_opacity_0 300ms;
+  }
+  .hov_box_gif:hover .gif {
+    animation: hover_opacity_1 300ms;
+    animation-fill-mode: forwards;
+  }
+  .hov_box_gif:not(:hover) .gif {
+    animation: hover_opacity_0 300ms;
+  }
+  .skills_container h2 {
+    font-size: 2rem;
+  }
+  .skills_container h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .skills_container p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .skills_img {
+    padding-top: 20px;
+  }
+  .skills_inner {
+    margin-top: 2rem;
+  }
+  .img400 {
+    width: 40rem;
+  }
+  .skills_inner_div {
+    width: 40px;
+    margin: 0.8rem;
+  }
+  .img400 {
+    width: 22rem;
+  }
+}

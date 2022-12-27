@@ -1,16 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import { useState } from "react";
+import Header from "./components/header/Header";
+import Project from "./components/main/Project";
+import About from "./components/main/About";
+import Contact from "./components/main/Contact";
 import "./App.css";
 
 function App() {
-  return (
-      <Router>
-        <Routes>
-          <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
-          <Route />
-        </Routes>
-      </Router>
+  const [onOffBtn, setOnOffBtn] = useState(0);
+  const headerSwitchHandler = (index) => {
+    setOnOffBtn(index);
+  };
 
+  return (
+    <div>
+      <Header onOffBtn={onOffBtn} headerSwitchHandler={headerSwitchHandler} />
+      <main>
+        <Project onOffBtn={onOffBtn} />
+        <About />
+        <Contact />
+      </main>
+    </div>
   );
 }
 
