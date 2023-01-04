@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.381ea0fb.css",
-    "main.js": "/my-app/static/js/main.a6a4c05b.js",
+    "main.js": "/my-app/static/js/main.06238f38.js",
     "static/media/20221205182338_Trim.gif": "/my-app/static/media/20221205182338_Trim.9474843f82b22322d771.gif",
     "static/media/20221206223545_Trim.gif": "/my-app/static/media/20221206223545_Trim.6cd3da49fb8b3873a3dc.gif",
     "static/media/airbnb.jpg": "/my-app/static/media/airbnb.85a6b2a049b8f6fafaea.jpg",
@@ -19,10 +19,10 @@
     "static/media/YasashiiBold.ttf": "/my-app/static/media/YasashiiBold.4499c1e08893e9219f98.ttf",
     "index.html": "/my-app/index.html",
     "main.381ea0fb.css.map": "/my-app/static/css/main.381ea0fb.css.map",
-    "main.a6a4c05b.js.map": "/my-app/static/js/main.a6a4c05b.js.map"
+    "main.06238f38.js.map": "/my-app/static/js/main.06238f38.js.map"
   },
   "entrypoints": [
     "static/css/main.381ea0fb.css",
-    "static/js/main.a6a4c05b.js"
+    "static/js/main.06238f38.js"
   ]
 }
