@@ -6,7 +6,7 @@
   height: 100vh;
   background-color: #3e9d89;
   font-family: NanumSquareRound;
-  padding: 5rem 1.5rem;
+  padding: 3rem 1.5rem;
 }
 .project_inner_container {
   display: flex;
@@ -30,6 +30,10 @@ project text
   font-size: 1.3rem;
   line-height: 2rem;
 }
+.project_live {
+  position: sticky;
+  font-weight: 700;
+}
 /* ========
 project showroom
 ========= */
@@ -42,7 +46,7 @@ project showroom
 .hov_box {
   height: 100%;
   border-top: 2px solid #fff;
-  width: 30rem;
+  width: 32rem;
   position: relative;
   cursor: pointer;
 }
@@ -887,6 +891,11 @@ skills
     }
   }
 }
+@media (max-width: 1024px) {
+  .hov_box:nth-child(4) {
+    margin-top: 5rem;
+  }
+}
 @media (max-width: 429px) {
   .project_container {
     padding: 4rem 1.5rem;
@@ -894,9 +903,7 @@ skills
   .project_showroom {
     padding: 10px 10px;
   }
-  .hov_box:nth-child(4) {
-    margin-top: 5rem;
-  }
+
   .project_text h2 {
     font-size: 2rem;
   }

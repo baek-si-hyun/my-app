@@ -1,0 +1,9 @@
+.footer_container {
+  background-color: #f4f4f4;
+  height: 40px;
+  padding: 0.7rem;
+  text-align: center;
+}
+.footer_container p {
+  margin: 0;
+}

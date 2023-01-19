@@ -4,6 +4,7 @@ import Project from "./components/main/Project";
 import About from "./components/main/About";
 import Contact from "./components/main/Contact";
 import "./App.css";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [onOffBtn, setOnOffBtn] = useState(0);
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Contact />
       </main>
+      <Footer/>
     </div>
   );
 }

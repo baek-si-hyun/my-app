@@ -38,14 +38,19 @@ function Project({ onOffBtn }) {
             <br />
             &nbsp;&nbsp;&nbsp;기능, 국내 검색 활성화 개선
           </p>
-          <h3>앞으로...</h3>
+          <h3>프로젝트 보러가기</h3>
           <p>
-            프로젝트가 작동 되는걸 직접 체험할 수 있도록
+            지속적으로 개선 중에 있습니다.
             <br />
-            AWS를 통한 서비스를 구현중에 있습니다.
+            때문에 데이터 값은 임의로 넣어놓았습니다.
             <br />
-            하지만 몇몇 문제들로 인해 지연되고 있습니다.
+            <a href="http://3.39.97.123/pages" className={styles.project_live}>
+              프로젝트 라이브(로그인을 해야 더 많은 영역을 볼수있습니다.)
+            </a>
             <br />
+            아이디 : qweqwe@naver.com (입력 안되어 있을 시 참고)
+            <br />
+            비밀번호 : !123123qweqwe
           </p>
         </div>
         <div className={styles.project_showroom}>

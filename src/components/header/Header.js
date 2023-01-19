@@ -87,7 +87,7 @@ function Header({ headerSwitchHandler, onOffBtn }) {
     const contact = document.querySelector(
       `.${stylesContact.contact_container}`
     ).offsetTop;
-    console.log(e.target.id);
+
     if (e.target.id === "logo_svg" || e.target.id === "logo_path") {
       window.scrollTo({ top: header, behavior: "smooth" });
     }

@@ -124,10 +124,10 @@ header top
   color: #fff;
 }
 .menu_show {
-  animation: menuShow 0.5s;
+  animation: menu_show 0.5s;
   animation-fill-mode: forwards;
 }
-@keyframes menuShow {
+@keyframes menu_show {
   from {
     top: -20rem;
   }
@@ -136,10 +136,10 @@ header top
   }
 }
 .menu_hide {
-  animation: menuHide 0.5s;
+  animation: menu_hide 0.5s;
   animation-fill-mode: forwards;
 }
-@keyframes menuHide {
+@keyframes menu_hide {
   from {
     top: 0;
   }
@@ -273,7 +273,7 @@ switch btn
     border-radius: 15px 0 0 15px;
   }
   100% {
-    transform: translateX(118px);
+    transform: translateX(119px);
     border-radius: 0 15px 15px 0;
   }
 }
